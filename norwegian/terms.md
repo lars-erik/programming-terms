@@ -24,6 +24,11 @@ Sett av [instrukser](#instruks) som sammen gir et ønsket resultat eller utfall.
 _Allocating_  
 Sette av plass i minne. Mest brukt i forbindelse med objekter, men gjelder også for tabeller og andre strukturer. 
 
+#### Bytecode
+Synonum: _intermediate code_   
+Binært mellomformat som er maskinuavhenging, og ikke kan kjøres direkte av et operativsystem. Kjøring av slik kode krever 
+et passende [kjøremiljø](#kjøremiljø).
+
 #### Felt (klasse)
 _Field_  
 En [variabel](#variabel) som tilhører en [klasse](#klasse). Kan være [privat](#privat), [beskyttet](#beskyttet) (protected) eller [offentlig](#offentlig) (public).  
@@ -59,8 +64,23 @@ bruksmåten er ikke veldig utbredt.
 _Interface_  
 Se [grensesnitt](#grensnitt-programmering).
 
+#### Intermediate code
+Se [bytecode](#bytecode)
+
+#### Kjøremiljø
+_Run time environment_   
+I moderne programvareutvikling forstås dette til å være maskinavhengig tolker for [byte code](byte code). Typisk er
+dette .NET og Java Virtual Machine.
+
+
 #### Klasse
 _Class_
+
+#### Kompilere
+_Compile_   
+Oversette menneskelig lesbar programkode til maskinlesbar kode. Dette kan både bety at resultatet kan kjøres rett fra operativsystemet,
+eller at resultatet ([byte code](#bytecode)) kan benyttes i et bestemt [kjøremiljø](#kjøremiljø). Det siste er vanlig for _.NET_ og _Java Virutal Machine_
+baserte spårk.
 
 #### Kolonne
 _Column_  
@@ -86,6 +106,12 @@ _Row_
 #### Signatur (funksjon)
 _signature_  
 Delen av en funksjon som beskriver [returtype](#returtype), navn og [argumenter](#argument)
+
+
+#### Transpilere
+_transpile_    
+Oversette, eller tranformere, kode fra ett programmeringsspråk til et annet. Kjente eksempler på dette er transpilering av 
+_TypeScript_ eller _CoffeScript_ til _JavaScript_. Må ikke misforstås med [Kompilering](Kompilere).
 
 #### Variabel
 _Variable_  
