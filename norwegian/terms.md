@@ -51,11 +51,10 @@ En funksjon _kan_ returnere ett eller flere resultater. Typisk ett, men gjerne e
 #### Grensesnitt (brukergrensesnitt)
 _User interface_
 
-#### Grensnitt (programmering)
+#### Grensesnitt (programmering)
 _Interface_  
 Et sett av [funksjonssignaturer](#signatur-funksjon) en klasse kan implementere.  
 En [klasse](#klasse) som [implementerer](#implementere) et _interface_ kan benyttes via det som en [abstraksjon](#abstraksjon) i stedet for den [konkrete klassen](#konkret-klasse).
-
 
 #### Instansiere
 _Instantiating_  
@@ -77,7 +76,6 @@ _Run time environment_
 I moderne programvareutvikling forstås dette til å være maskinavhengig tolker for [byte code](byte code). Typisk er
 dette .NET og Java Virtual Machine.
 
-
 #### Klasse
 _Class_
 
@@ -94,9 +92,12 @@ I databaser kalles definisjonen av hvert felt [radene](#rad) kan ha en kolonne.
 #### Konkret klasse
 _Concrete class_
 
+En "ordentlig" instansierbar klasse, som motsetning til [abstrakte klasser](#abstrakt-klasse) eller [interface](#interface).  
+Som regel benyttes begrepet kun for implementasjoner av slike abstraksjoner.
+
 #### Konstant
 _Constant_  
-En ikke-redigerbar [variabel](#variabel)
+En ikke-redigerbar [variabel](#variabel) (read-only)
 
 #### Metode (klasse)
 _Method_  
@@ -116,7 +117,6 @@ _Row_
 #### Signatur (funksjon)
 _signature_  
 Delen av en funksjon som beskriver [returtype](#returtype), navn og [parametere](#parameter-til-funksjon)
-
 
 #### Transpilere
 _transpile_    
