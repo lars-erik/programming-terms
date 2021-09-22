@@ -27,7 +27,7 @@ Sette av plass i minne. Mest brukt i forbindelse med objekter, men gjelder også
 #### Argument (i funksjonskall) 
 _Argument_  
 Verdiene som sendes inn i et funksjonskall kalles for argumenter til funksjonen.  
-Inne i funksjonen kalles verdiene [parametere](#parameter).
+Inne i funksjonen kalles verdiene [parametere](#parameter-til-funksjon).
 
 #### Bytecode
 Synonym: _intermediate code_   
