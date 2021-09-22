@@ -105,7 +105,7 @@ En [funksjon](#funksjon) som tilhører en klasse. Kan være privat, beskyttet (b
 #### Parameter (til funksjon)  
 _Parameter_  
 En funksjons spesifikasjon av-, og referanse til verdier som kan sendes inn.  
-Der funksjonen kalles og verdier sendes inn kalles verdiene [argumenter](#argument) til funksjonen.
+Der funksjonen kalles og verdier sendes inn kalles verdiene [argumenter](#argument-i-funksjonskall) til funksjonen.
 
 #### Privat (klasse, felt, metode)
 _Private_
@@ -115,7 +115,7 @@ _Row_
 
 #### Signatur (funksjon)
 _signature_  
-Delen av en funksjon som beskriver [returtype](#returtype), navn og [parametere](#parameter)
+Delen av en funksjon som beskriver [returtype](#returtype), navn og [parametere](#parameter-til-funksjon)
 
 
 #### Transpilere
