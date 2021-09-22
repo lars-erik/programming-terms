@@ -24,8 +24,13 @@ Sett av [instrukser](#instruks) som sammen gir et ønsket resultat eller utfall.
 _Allocating_  
 Sette av plass i minne. Mest brukt i forbindelse med objekter, men gjelder også for tabeller og andre strukturer. 
 
+#### Argument (i funksjonskall) 
+_Argument_  
+Verdiene som sendes inn i et funksjonskall kalles for argumenter til funksjonen.  
+Inne i funksjonen kalles verdiene [parametere](#parameter).
+
 #### Bytecode
-Synonum: _intermediate code_   
+Synonym: _intermediate code_   
 Binært mellomformat som er maskinuavhenging, og ikke kan kjøres direkte av et operativsystem. Kjøring av slik kode krever 
 et passende [kjøremiljø](#kjøremiljø).
 
@@ -97,6 +102,11 @@ En ikke-redigerbar [variabel](#variabel)
 _Method_  
 En [funksjon](#funksjon) som tilhører en klasse. Kan være privat, beskyttet (beskyttet) eller offentlig (public).
 
+#### Parameter (til funksjon)  
+_Parameter_  
+En funksjons spesifikasjon av-, og referanse til verdier som kan sendes inn.  
+Der funksjonen kalles og verdier sendes inn kalles verdiene [argumenter](#argument) til funksjonen.
+
 #### Privat (klasse, felt, metode)
 _Private_
 
@@ -105,7 +115,7 @@ _Row_
 
 #### Signatur (funksjon)
 _signature_  
-Delen av en funksjon som beskriver [returtype](#returtype), navn og [argumenter](#argument)
+Delen av en funksjon som beskriver [returtype](#returtype), navn og [parametere](#parameter)
 
 
 #### Transpilere
